@@ -1,5 +1,5 @@
 Local
-  Ptyhon 3.8
+  Ptyhon 3.10
 
 Python packages
   torch==1.13
