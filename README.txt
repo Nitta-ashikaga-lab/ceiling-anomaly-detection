@@ -20,7 +20,7 @@ The train.py and test.py files and the models/ and common/ directories included 
 ComputermindCorp, "patchcore"
 https://github.com/ComputermindCorp/patchcore
 
-That repository is distributed under the Apache License 2.0. These original PatchCore files are redistributed here without modification so that reviewers can reproduce the experiments using the same implementation employed in this study.
+That repository is distributed under the Apache License 2.0. These original PatchCore files are redistributed here without modification so that users can reproduce the experiments using the same implementation employed in this study.
 
 The inference.py script was developed for this study by modifying and extending the original test.py script from the ComputermindCorp PatchCore implementation to perform inference and generate the outputs required for the anomaly area ratio analysis.
 
