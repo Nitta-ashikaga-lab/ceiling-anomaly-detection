@@ -186,9 +186,11 @@ Data Availability
 -----------------
 The data and code provided in this repository are intended to support reproduction of the principal results reported in the associated manuscript.
 
-During peer review, access to this repository is restricted to the editors and reviewers.
+At the time of submission, the processed training, validation, and test datasets, scripts and configuration files, and the Memory Banks required
+to reproduce the key results are publicly available in this repository.
 
-Upon publication, the materials necessary to reproduce the principal results will be made publicly available in a stable, DOI-bearing research repository, with a mirror made available through the project repository.
+Upon publication, these materials will also be archived in a stable, DOI-bearing research repository.
+
 
 License and Third-Party Code
 ----------------------------
