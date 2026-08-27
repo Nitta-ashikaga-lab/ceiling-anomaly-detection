@@ -1,0 +1,29 @@
+coreset_sampling_ratio: 0.1
+num_neighbors: 9
+input_size: [224, 224]
+backborn_id: resnet18
+device: cuda
+batch_size: 8
+
+train:
+  data_paths:
+    - ./data/images_ki/train/OK_b0
+
+val:
+  data_paths:
+    - ./data/images_ki/val/OK_b0
+    - ./data/images_ki/val/NG_b0
+  labels: [0, 1]
+
+test:
+  enable: True
+  data_paths:
+  - ./data/images_ki/test/OK_b0
+  - ./data/images_ki/test/NG_b0
+  labels: [0, 1]
+
+save_weights_root_path: ./data/weights_ki/
+
+auto_save_weights_path: True
+save_weights_path_suffix: kid
+save_weights_filename: 

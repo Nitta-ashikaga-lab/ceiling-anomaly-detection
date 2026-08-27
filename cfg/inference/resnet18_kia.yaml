@@ -1,0 +1,13 @@
+device: 
+weights_path: ./data/weights_ki/resnet18_size224_param_0.1_9_kia.pth
+th: 0.5
+
+test_data_paths:
+ - ./data/images_ki/inference/test_Raa
+labels: [1]
+
+output_root_path: 
+  ./data/output_ki/inference/test_Raa
+
+heatmap:
+  ng_dir: True

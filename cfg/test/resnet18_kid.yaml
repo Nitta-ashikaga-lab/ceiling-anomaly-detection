@@ -1,0 +1,15 @@
+device: 
+weights_path: ./data/weights_ki/resnet18_size224_param_0.1_9_kid.pth
+th: 0.5
+
+
+test_data_paths:
+ - ./data/images_ki/test/OK_b0
+ - ./data/images_ki/test/NG_b0
+labels: [0, 1]
+
+output_root_path: 
+ ./data/output_ki/kid
+
+heatmap:
+  ng_dir: True
